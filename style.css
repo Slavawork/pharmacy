@@ -27,7 +27,7 @@ img {
 .header-bg{
 	background: url(images/header-bg.png) no-repeat top center;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	background-size: cover;
 	/*position: relative;*/
 	min-height: 600px;
@@ -114,6 +114,7 @@ img {
 	}
 .main-content{
 	float: left;
+	
 	margin: 0 125px 0 125px;
 	}
 .main-content .row{
@@ -172,12 +173,14 @@ table{
 	}
 .bottom-section{
 	float: left;
+	width: 100%;
 	background-color: #E7F8FB;
 	padding: 50px 125px 50px 125px;
 	}
-	/*.bottom-section .col-lg-4{
-		width: 30%;
-	}*/
+.bottom-section .col-lg-4{
+	padding-left: 20px;
+    padding-right: 20px;
+	}
 .bottom-section h3{ 
 	font-size: 22px;
 	font-weight: 400;
@@ -227,3 +230,46 @@ table{
 .order h5{
 	font-size: 15px;
 }
+}
+@media only screen and (min-width: 1400px){
+.header-bg{
+	
+		min-height: 700px;
+	}
+.header-bg .row {
+	margin: auto;	
+	}
+.header-bg .row {
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+.main-content{
+	width: 100%;
+	margin: auto;
+	}
+	
+.main-content .row{
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;	
+	}
+.bottom-section{
+	margin: auto;
+	}
+.bottom-section .row{
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+.footer{
+	width: 100%;
+	margin: auto;
+	}
+.footer{
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+	}
