@@ -82,7 +82,17 @@ img {
 .instruction{
 	padding-right: 30px;
 	}
-.icon-instruction{
+.instruction .material-icons{
+	padding-right: 4px;
+	vertical-align: middle;
+	color: #fae25f;
+}
+.cerificate .material-icons{
+	padding-right: 4px;
+	vertical-align: middle;
+	color: #fae25f;
+}
+/*.icon-instruction{
 	background: url(images/icon-instruction.png) no-repeat center left;
 	padding-left: 20px;
 	margin-right: 10px;
@@ -91,7 +101,7 @@ img {
 	background: url(images/icon-certificate.png) no-repeat center left;
 	padding-left: 25px;
 	margin-right: 10px;
-	}
+	}*/
 .header-phone{
 	float: right;
 	margin-bottom: 50px;
