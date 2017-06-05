@@ -64,11 +64,21 @@ img {
 	border-radius: 50px;
 	text-align: center;
 	}
-.icon-cart{
+.order h5:hover{
+background: linear-gradient(180deg, #FFE86E 0%, #E4C104 93.33%);
+}
+
+.order .material-icons{
+	padding-right: 4px;
+	vertical-align: middle;
+	color: #288092;
+	
+}
+/*.icon-cart{
 	background: url(images/icon-cart.png) no-repeat center left;
 	padding-left: 20px;
 	margin-right: 20px;
-	}
+	}*/
 
 .icons, .instruction, .cerificate{
 	float: left;
@@ -105,6 +115,7 @@ img {
 .header-phone{
 	float: right;
 	margin-bottom: 50px;
+	margin-right: -15px;
 	}
 .header-phone span{
 	color: #a4d7de;
@@ -121,6 +132,7 @@ img {
 	width: 100%;
 	height: 370px;
 	background-size: contain;
+	margin-right: -15px;
 	}
 .main-content{
 	float: left;
