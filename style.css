@@ -102,6 +102,12 @@ background: linear-gradient(180deg, #FFE86E 0%, #E4C104 93.33%);
 	vertical-align: middle;
 	color: #fae25f;
 }
+.instruction a{
+	color: #fff;
+}
+.cerificate a{
+	color: #fff;
+}
 /*.icon-instruction{
 	background: url(images/icon-instruction.png) no-repeat center left;
 	padding-left: 20px;
@@ -139,7 +145,7 @@ background: linear-gradient(180deg, #FFE86E 0%, #E4C104 93.33%);
 .main-content{
 	float: left;
 	
-	margin: 0 125px 0 125px;
+	margin: 0 225px 0 225px;
 	}
 .main-content .row{
 	margin-right: 0;
@@ -148,11 +154,11 @@ background: linear-gradient(180deg, #FFE86E 0%, #E4C104 93.33%);
 	}
 table{
 	font-family: "Open Sans";
-	width: 1100px;
+	width: 900px;
 	/*margin-left: 5%;*/
 	}
 .first, .first-first{
-	width: 296px;
+	width: 250px;
 	vertical-align: text-top;
 	}
 .first p{
@@ -167,7 +173,7 @@ table{
 }
 
 .second, .second-first{
-	width: 750px;
+	width: 650px;
 	border-bottom: 2px solid #D7DEE2;
 	}
 .second-first p{
@@ -192,7 +198,7 @@ table{
 	}
 .order.bottom{
 	float:left;
-	margin-left: 80px;
+	margin-left: 0px;
 	padding-top: 30px;
 	}
 .bottom-section{
@@ -227,6 +233,10 @@ table{
 
 
 @media only screen and (max-width: 1280px){
+table{
+	width: 100%;
+	}
+	
 .header-bg .row{
 	margin: 60px 90px 0 90px;
 	}
@@ -241,15 +251,19 @@ table{
 	}
 }
 @media only screen and (max-width: 1100px){
+.main-content{
+	margin: 0 110px 0 110px;
+	}
 table{
 	width: 100%;
+	max-width: 800px;
 	}
-.first{
-	width: 42%;
+.first, .first-first{
+	width: 32%;
 	vertical-align: text-top;
 	}
-.second{
-	width: 68%;
+.second .second-second{
+	width: 78%;
 	}
 .order h5{
 	font-size: 15px;
@@ -257,11 +271,13 @@ table{
 }
 @media only screen and (min-width: 1400px){
 .header-bg{
-	
-		min-height: 700px;
+	margin-top: -100px;
+	min-height: 700px;
 	}
 .header-bg .row {
-	margin: auto;	
+	margin-top: 150px;
+	margin-right: auto;
+	margin-left: auto;	
 	}
 .header-bg .row {
 	max-width: 1100px;
@@ -274,7 +290,7 @@ table{
 	}
 	
 .main-content .row{
-	max-width: 1100px;
+	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;	
 	}
