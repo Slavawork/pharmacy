@@ -117,6 +117,9 @@ background: linear-gradient(180deg, #FFE86E 0%, #E4C104 93.33%);
 	margin-bottom: 50px;
 	margin-right: -15px;
 	}
+.header-phone a{
+	color: #fff;
+}
 .header-phone span{
 	color: #a4d7de;
 	
@@ -124,7 +127,6 @@ background: linear-gradient(180deg, #FFE86E 0%, #E4C104 93.33%);
 .header-phone p{
  	color: #fff;
 	font-size: 16px;
-	
 	}
 .header-image{
 	float: right;
