@@ -67,18 +67,10 @@ img {
 	padding-left: 20px;
 	margin-right: 20px;
 	}
-	
-.order.price{
-	font-family: "Open Sans";
-	font-weight: 600;
-	font-size: 28px;
-	line-height: 100%;
-	color: #288092;	
-	}
+
 .icons, .instruction, .cerificate{
 	float: left;
-	/* Інструкція до застосування */
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 18px;
 	line-height: 100%;
 	color: #FFFFFF;
@@ -95,7 +87,7 @@ img {
 	}
 .icon-cerificate{
 	background: url(images/icon-certificate.png) no-repeat center left;
-	padding-left: 20px;
+	padding-left: 25px;
 	margin-right: 10px;
 	}
 .header-phone{
@@ -109,6 +101,7 @@ img {
 .header-phone p{
  	color: #fff;
 	font-size: 16px;
+	
 	}
 .header-image{
 	float: right;
@@ -128,10 +121,11 @@ img {
 	}
 table{
 	font-family: "Open Sans";
-	width: 100%;	
+	width: 1100px;
+	margin-left: 5%;
 	}
 .first{
-	width: 30%;
+	width: 296px;
 	vertical-align: text-top;
 	}
 .first p{
@@ -140,7 +134,7 @@ table{
 	}
 	
 .second{
-	width: 70%;
+	width: 806px;
 	border-bottom: 2px solid #D7DEE2;
 	}	
 .second.last {
