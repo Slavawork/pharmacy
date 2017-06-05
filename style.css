@@ -27,7 +27,7 @@ img {
 .header-bg{
 	background: url(images/header-bg.png) no-repeat top center;
 	width: 100%;
-	height: 100%;
+	height: auto;
 	background-size: cover;
 	/*position: relative;*/
 	min-height: 600px;
@@ -45,7 +45,7 @@ img {
 .logo img{
 	width: 100%;
 	max-width: 427px;
-	height: 150px;
+	height: auto;
 	}
 .order{
 	float: left;
@@ -180,6 +180,7 @@ table{
 	}*/
 .bottom-section h3{ 
 	font-size: 22px;
+	font-weight: 400;
 	color: #157690;
 	}
 .footer{
@@ -223,4 +224,6 @@ table{
 .second{
 	width: 68%;
 	}
+.order h5{
+	font-size: 15px;
 }
