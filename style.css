@@ -549,7 +549,7 @@ p{
 	margin-left: auto;
 	margin-right: auto;
 	}
-.header-image{
+.header-image-mobile{
 	float: left;
 	height: 220px;
 	margin-top: 40px;
@@ -558,19 +558,20 @@ p{
 
 	}
 .order h5{
-	padding: 20px 20px;	
+	padding: 20px 10px;	
 	}
 .cerificate {
 	float: left;
+	}
+.instruction{
+	float:left;
+	padding-right: 0px;
 	}
 .instruction p{
 	margin-bottom: 10px;	
 	}
 .cerificate p{
 	margin-top: 10px;	
-	}
-.instruction{
-	float:left;
 	}
 .header-phone{
 	float:left;	
