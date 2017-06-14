@@ -150,8 +150,11 @@ background: linear-gradient(180deg, #DE7D75 0%, #EE9474 93.33%);
 	float: left;
 	margin-left: 150px;
 }
+.phone-padding{
+		line-height: 3;
+	}
 .header-phone{
-	margin-top: 163px;
+	margin-top: 144px;
 	max-width: 270px;
 	color: #fff;
 	font-weight: 200;
@@ -548,15 +551,18 @@ background: linear-gradient(180deg, #DE7D75 0%, #EE9474 93.33%);
 	margin: 40px 10px 10px 10px;
 }
 .logo p{
-	font-size: 16px;
+	font-size: 15px;
 	color: #fff;
 	font-weight: bold;
 	text-align: center;
 }
+	.order .material-icons{
+		display: none;
+	}
 .order h5{
 	margin-top: 38px;
 	font-size: 16px;
-	padding: 15px 10px;
+	padding: 15px 18px;
 	width: 100%
 }
 	
@@ -607,18 +613,18 @@ background: linear-gradient(180deg, #DE7D75 0%, #EE9474 93.33%);
 .instruction .material-icons{
 	padding-right: 4px;
 	vertical-align: middle;
-	color: #F3967B;
+	color: #a4d7de;
 }
 .cerificate .material-icons{
 	padding-right: 4px;
 	vertical-align: middle;
-	color: #F3967B;
+	color: #a4d7de;
 }
 .instruction a{
-	color: #fff;
+	color: #a4d7de;
 }
 .cerificate a{
-	color: #fff;
+	color: #a4d7de;
 }
 .instruction p{
 	margin: 0px;
@@ -626,6 +632,9 @@ background: linear-gradient(180deg, #DE7D75 0%, #EE9474 93.33%);
 .cerificate p{
 	margin: 0px;
 }
+.phone-padding{
+		line-height: 2;
+	}
 .header-phone{
 	text-align: left;
 	margin-top: 28px;
