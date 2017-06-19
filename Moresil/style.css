@@ -95,7 +95,6 @@ img {
 .order h5:hover{
 background: linear-gradient(180deg, #DE7D75 0%, #EE9474 93.33%);
 }
-
 .order .material-icons{
 	padding-right: 4px;
 	vertical-align: middle;
@@ -104,7 +103,7 @@ background: linear-gradient(180deg, #DE7D75 0%, #EE9474 93.33%);
 }
 .icons{
 	align-items: flex-start;
-	margin-top: 100px;
+	margin-top: 70px;
 }
 
 .third-vt .icons{
@@ -116,12 +115,13 @@ background: linear-gradient(180deg, #DE7D75 0%, #EE9474 93.33%);
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 100%;
-	color: #a4d7de;
+	color: #81CBFF;
 	text-align: right;
 	display: flex;
 	}
 .instruction{
-	padding-right: 60px;
+	max-width: 190px;
+	padding-right: 40px;
 	}
 .third-vt .instruction{
 	max-width: 190px;
@@ -130,18 +130,18 @@ background: linear-gradient(180deg, #DE7D75 0%, #EE9474 93.33%);
 .instruction .material-icons{
 	padding-right: 4px;
 	vertical-align: middle;
-	color: #F3967B;
+	color: #81CBFF;
 }
 .cerificate .material-icons{
 	padding-right: 4px;
 	vertical-align: middle;
-	color: #F3967B;
+	color: #81CBFF;
 }
 .instruction a{
-	color: #fff;
+	color: #81CBFF;
 }
 .cerificate a{
-	color: #fff;
+	color: #81CBFF;
 }
 .fourth{
 	float: right;
@@ -471,7 +471,8 @@ background: linear-gradient(180deg, #DE7D75 0%, #EE9474 93.33%);
 	margin-bottom: 0px;
 	}	
 .logo-bottom {
-    margin-left: 89px;
+    margin-left: 9px;
+    margin-right: 9px;
 }
 .order.bottom{
 	margin-left: 149px;
@@ -485,10 +486,14 @@ background: linear-gradient(180deg, #DE7D75 0%, #EE9474 93.33%);
 }
 
 @media only screen and (max-width: 420px){
+.header-bg{
+	margin-bottom: 45px;
+	}
 .header-content{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content:space-around;
+    max-width: 320px;
 	}
 .item{
 	display: flex;
@@ -590,9 +595,11 @@ background: linear-gradient(180deg, #DE7D75 0%, #EE9474 93.33%);
 	order: 1;
 	padding-right: 0px;
 	margin-bottom: 18px;
+	 max-width: 280px
 	}
 .instruction span{
 	padding-left: 0px;
+	
 	}
 .cerificate span{
 	padding-left: 0px;	
@@ -613,18 +620,10 @@ background: linear-gradient(180deg, #DE7D75 0%, #EE9474 93.33%);
 .instruction .material-icons{
 	padding-right: 4px;
 	vertical-align: middle;
-	color: #a4d7de;
 }
 .cerificate .material-icons{
 	padding-right: 4px;
 	vertical-align: middle;
-	color: #a4d7de;
-}
-.instruction a{
-	color: #a4d7de;
-}
-.cerificate a{
-	color: #a4d7de;
 }
 .instruction p{
 	margin: 0px;
